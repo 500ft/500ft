@@ -37,7 +37,7 @@ mixer. The deciding 7.0 V bench gate is frozen at **0.020 N·m** plus at least
 
 ## Links
 
-- [Portfolio](https://github.com/500ft/Portfolio)
+- [Portfolio](https://portfolio-omega-neon-53.vercel.app)
 - [LinkedIn](https://www.linkedin.com/in/u-mergen/)
 - [Email](mailto:mergen.ulzi@gmail.com)
 
