@@ -1,54 +1,62 @@
 # Mergen Ulziibayar
 
-Mechanical engineering student at NYU building evidence-driven robotics and
-mechanical systems: **Predict → Measure → Compare → Revise**.
+Mechanical engineering student at NYU Tandon. I design parts in CAD, build
+fixtures and prototypes, and debug mechanical and electrical integration.
 
-My strongest work is organized around explicit acceptance gates, reproducible
-analysis, and honest negative results—not just finished-looking demos. Where a
-result is simulation-only or a measurement is still pending, the repository says
-so.
+**SolidWorks · Onshape · FDM printing · laser cutting · tube fit-up · instrumentation**
 
-## Flagship work
+## Hardware I've built
 
-### [Soft Actuator Recalibration](https://github.com/500ft/soft-actuator-recalibration)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-When should a soft robot recalibrate? A reproducible simulation study of
-pressure–volume probes and pressure-only pose estimation. Across 2,000
-actuator-split traces, P-V loop area tracks fatigue compliance drift at pooled
-**r = 0.885**, and the deployed trigger has **no positive temporal lead**—a
-limitation reported rather than tuned away. The archived v1.3 manuscript carries
-a published correction notice for a methods overstatement; a corrected candidate
-is under author review, with no DOI or arXiv identifier claimed.
+### [V-Aid tactile climbing interface](https://github.com/500ft/v-aid-climbing)
 
-### [Autonomous Racing Systems](https://github.com/500ft/autonomous-racing-systems)
+[![V-Aid integrated prototype](https://raw.githubusercontent.com/500ft/v-aid-climbing/main/images/final-integrated-prototype.jpg)](https://github.com/500ft/v-aid-climbing)
 
-F1TENTH-scale vehicle modeling, system identification, controls, ROS 2
-telemetry, and LiDAR-mast structural design. The baseline mast **failed** its
-≥200 Hz modal guard at **174.7 Hz**; the redesigned geometry clears it at
-**285.5 Hz** in mesh-converged FEA, a 1.43× margin. A calibrated physical
-compliance test is preregistered and measurement is pending.
+Custom pin, guide and clamp design for a 12 × 12 tactile array. Four prototypes and 14 demonstrated route patterns.
 
-### [Multirotor Recovery Dynamics](https://github.com/500ft/multirotor-recovery-dynamics)
+</td>
+<td width="50%" valign="top">
 
-Guarded micro-UAV release-to-recovery study. The robustness sweep recovers only
-**4.0%** under placeholder torque; an assumed four-motor mixer *combined with a
-revised controller* recovers 300/300 in the reported sweep—not an isolated
-torque fix. The deciding 7.0 V bench gate is frozen at **0.020 N·m** with at
-least **962/1,000** primary recovery trials; measurement is pending.
+### [Outdoor air-quality enclosure](https://github.com/500ft/sensor-enclosure-bias-prediction)
 
-## Supporting projects
+[![Printed enclosure installed outdoors](https://raw.githubusercontent.com/500ft/sensor-enclosure-bias-prediction/main/docs/hardware/physical-prototype.jpg)](https://github.com/500ft/sensor-enclosure-bias-prediction)
 
-- [engineering-audit](https://github.com/500ft/engineering-audit) — CLI and benchmark suite that checks units, formulas, assumptions, and arithmetic in LLM-generated engineering calculations, with hash-verified capture provenance.
-- [segmented-shroud-aeromechanics](https://github.com/500ft/segmented-shroud-aeromechanics) — measurement-first research design on segmented rotor-shroud defects and tip clearance.
-- [uav-failsafe-composition](https://github.com/500ft/uav-failsafe-composition) — configuration-specific native UAV recovery after command loss, with falsifiable fleet-composition experiments.
-- [sensor-enclosure-thermal-design](https://github.com/500ft/sensor-enclosure-thermal-design) — analytical thermal design and day/night test preparation for outdoor sensor enclosures.
-- [informal-road-mapping](https://github.com/500ft/informal-road-mapping) — satellite screening for candidate informal-road corridors; synthetic tests, Mongolia validation pending.
-- [Nomad](https://github.com/500ft/Nomad) — maps mechanical-engineering topics to ranked papers, researchers, and source-linked project ideas.
+Four printed housing revisions, sensor and power integration, and an outdoor prototype. Build photographs, CAD and thermal analysis.
 
-## Links
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-- [Portfolio](https://portfolio-omega-neon-53.vercel.app)
-- [LinkedIn](https://www.linkedin.com/in/u-mergen/)
-- [Email](mailto:mergen.ulzi@gmail.com)
+### [FSAE fixtures and fabrication](https://github.com/500ft/fsae-fixtures)
 
-Python · CAD/FEA · ROS 2 · controls · system identification · experimental design
+[![FSAE waterjet-cut tab sheet](https://raw.githubusercontent.com/500ft/fsae-fixtures/main/images/waterjet-tabs.jpg)](https://github.com/500ft/fsae-fixtures)
+
+Three printed tube-fit fixtures and preparation of 32 steel tabs for suspension and steering fabrication. Shop photographs document the fabrication work.
+
+</td>
+<td width="50%" valign="top">
+
+### [RoboMaster gimbal packaging](https://github.com/500ft/robomaster-gimbal)
+
+[![RoboMaster gimbal assembly](https://raw.githubusercontent.com/500ft/robomaster-gimbal/main/images/physical-gimbal-assembly.jpg)](https://github.com/500ft/robomaster-gimbal)
+
+Launcher-wheel, supercapacitor-shell and armor packaging within the team gimbal. M3 wheel retention and a 500 RPM prototype check.
+
+</td>
+</tr>
+</table>
+
+## Analysis supporting design
+
+I also work on generated control-code comparisons, evidence sufficiency and
+thermal modeling. [Research and software case studies](https://www.mergenulziibayar.com/projects)
+include the methods, retained results and their scope.
+
+[Portfolio](https://www.mergenulziibayar.com) ·
+[Resume](https://www.mergenulziibayar.com/resume.pdf) ·
+[LinkedIn](https://www.linkedin.com/in/u-mergen/) ·
+[Email](mailto:u.mergen@nyu.edu)
